@@ -1,16 +1,3 @@
-
-/* http://www.youtube.com/c/electronoobs
- * 
- * This is an example where we configure te data of the MPU6050
- * and read the Acceleration data and print it to the serial monitor
- * 
- * Arduino pin    |   MPU6050
- * 5V             |   Vcc
- * GND            |   GND
- * A4             |   SDA
- * A5             |   SCL
- */
- 
 //Includes
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> //LCD display
